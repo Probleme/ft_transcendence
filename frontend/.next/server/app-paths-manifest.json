@@ -1,7 +1,6 @@
 {
   "/login/page": "app/login/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/login_intra/callback/page": "app/login_intra/callback/page.js",
-  "/login_intra/page": "app/login_intra/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/callback/page": "app/login/callback/page.js"
 }
