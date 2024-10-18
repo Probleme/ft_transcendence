@@ -1,7 +1,1 @@
-{
-  "/leaderboard/page": "app/leaderboard/page.js",
-  "/friends/page": "app/friends/page.js",
-  "/page": "app/page.js",
-  "/login/page": "app/login/page.js",
-  "/game/page": "app/game/page.js"
-}
+{}
