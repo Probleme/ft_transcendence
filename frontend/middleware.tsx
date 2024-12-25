@@ -10,11 +10,6 @@ console.log(token);
   if (!token && request.nextUrl.pathname !== '/login' && request.nextUrl.pathname !== '/callback') {
     return NextResponse.redirect(new URL('/login', request.url));
   }
-
-  // check if the the user is trying to access the login page and they are already logged in
-  if (token && request.nextUrl.pathname === '/login') {
-    return NextResponse.redirect(new URL('/dashboard', request.url));
-  }
   // If the token is found or the request is for the '/login' page, proceed as normal
   return NextResponse.next();
 

@@ -41,13 +41,18 @@ const Profile = ({ userData, myProfile }) => {
     const fetchUserProfile = async () => {
       try {
         setLoading(true);
-        const userResponse = await Axios.get("/api/user_profile/");
-        currentUserId = userResponse.data.id;
-        setCurrUser(userResponse.data);
-        const friendshipResponse = await Axios.get(
-          `/api/friends/friendship_status/${userId}/`
-        );
-        setFriendshipStatus(friendshipResponse.data);
+        if (myProfile === false) {
+          const userResponse = await Axios.get("/api/user_profile/");
+          currentUserId = userResponse.data.id;
+          setCurrUser(userResponse.data);
+          const friendshipResponse = await Axios.get(
+            `/api/friends/friendship_status/${userId}/`
+          );
+          setFriendshipStatus(friendshipResponse.data);
+        } else {
+          return null;
+        }
+          
       } catch (err) {
         setError(err.response?.data?.message || "An error occurred");
         toast.error(error);
@@ -61,6 +66,7 @@ const Profile = ({ userData, myProfile }) => {
   
   
   const sendFriendRequest = async () => {
+    if (myProfile) return;
     try {
       await sendFriendRequest3(userId);
       await friendshipStatusFunc(userId, setFriendshipStatus);
