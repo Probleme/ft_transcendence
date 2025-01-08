@@ -14,10 +14,6 @@ export default function Search({ isSmall }) {
 
   const { loggedInUser } = useWebSocketContext();
 
-
-  const { loggedInUser } = useWebSocketContext();
-
-
   useEffect(() => {
     const fetchUsers = async () => {
       try {
