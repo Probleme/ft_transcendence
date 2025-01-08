@@ -1,0 +1,10 @@
+{
+  "/api/metrics/route": "app/api/metrics/route.js",
+  "/login/page": "app/login/page.js",
+  "/callback/page": "app/callback/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js",
+  "/(pages)/home/page": "app/(pages)/home/page.js",
+  "/(pages)/game/page": "app/(pages)/game/page.js"
+}
