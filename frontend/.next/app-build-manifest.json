@@ -23,6 +23,7 @@
       "static/chunks/app/not-found.js"
     ],
     "/(pages)/dashboard/page": [
+<<<<<<< HEAD
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(pages)/dashboard/page.css",
@@ -35,12 +36,46 @@
       "static/chunks/app/(pages)/layout.js"
     ],
     "/(pages)/settings/page": [
+=======
+>>>>>>> d8c38773aec720c0ddaa200f49d0d9513f45edaf
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/settings/page.css",
-      "static/chunks/app/(pages)/settings/page.js"
+      "static/css/app/(pages)/dashboard/page.css",
+      "static/chunks/app/(pages)/dashboard/page.js"
+    ],
+<<<<<<< HEAD
+    "/callback/page": [
+=======
+    "/(pages)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(pages)/layout.css",
+      "static/chunks/app/(pages)/layout.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ],
     "/callback/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/callback/page.js"
+    ],
+    "/(pages)/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(pages)/home/page.css",
+      "static/chunks/app/(pages)/home/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/(pages)/game/page": [
+>>>>>>> d8c38773aec720c0ddaa200f49d0d9513f45edaf
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/callback/page.js"

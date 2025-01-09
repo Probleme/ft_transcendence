@@ -1,7 +1,15 @@
 {
-  "/api/metrics/route": "app/api/metrics/route.js",
   "/login/page": "app/login/page.js",
   "/callback/page": "app/callback/page.js",
+<<<<<<< HEAD
   "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js",
   "/(pages)/settings/page": "app/(pages)/settings/page.js"
+=======
+  "/api/metrics/route": "app/api/metrics/route.js",
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(pages)/home/page": "app/(pages)/home/page.js",
+  "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js",
+  "/(pages)/game/page": "app/(pages)/game/page.js"
+>>>>>>> d8c38773aec720c0ddaa200f49d0d9513f45edaf
 }
