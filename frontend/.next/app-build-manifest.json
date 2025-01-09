@@ -1,16 +1,10 @@
 {
   "pages": {
-    "/(pages)/dashboard/page": [
+    "/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/dashboard/page.css",
-      "static/chunks/app/(pages)/dashboard/page.js"
-    ],
-    "/(pages)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/layout.css",
-      "static/chunks/app/(pages)/layout.js"
+      "static/css/app/login/page.css",
+      "static/chunks/app/login/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -28,27 +22,17 @@
       "static/css/app/not-found.css",
       "static/chunks/app/not-found.js"
     ],
-    "/_not-found/page": [
+    "/(pages)/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/(pages)/dashboard/page.css",
+      "static/chunks/app/(pages)/dashboard/page.js"
     ],
-    "/login/page": [
+    "/(pages)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/login/page.css",
-      "static/chunks/app/login/page.js"
-    ],
-    "/callback/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/callback/page.js"
-    ],
-    "/(pages)/profile/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/profile/page.css",
-      "static/chunks/app/(pages)/profile/page.js"
+      "static/css/app/(pages)/layout.css",
+      "static/chunks/app/(pages)/layout.js"
     ],
     "/(pages)/settings/page": [
       "static/chunks/webpack.js",
@@ -56,44 +40,10 @@
       "static/css/app/(pages)/settings/page.css",
       "static/chunks/app/(pages)/settings/page.js"
     ],
-    "/(pages)/chat/page": [
+    "/callback/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/chat/page.css",
-      "static/chunks/app/(pages)/chat/page.js"
-    ],
-    "/(pages)/friends/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/friends/page.css",
-      "static/chunks/app/(pages)/friends/page.js"
-    ],
-    "/(pages)/leaderboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/leaderboard/page.js"
-    ],
-    "/(pages)/About/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/About/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/(pages)/home/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(pages)/home/page.css",
-      "static/chunks/app/(pages)/home/page.js"
-    ],
-    "/(pages)/game/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/game/page.js"
+      "static/chunks/app/callback/page.js"
     ]
   }
 }

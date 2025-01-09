@@ -1,10 +1,7 @@
 {
   "/api/metrics/route": "app/api/metrics/route.js",
   "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
+  "/callback/page": "app/callback/page.js",
   "/(pages)/dashboard/page": "app/(pages)/dashboard/page.js",
-  "/(pages)/home/page": "app/(pages)/home/page.js",
-  "/(pages)/game/page": "app/(pages)/game/page.js",
-  "/(pages)/profile/page": "app/(pages)/profile/page.js"
+  "/(pages)/settings/page": "app/(pages)/settings/page.js"
 }
